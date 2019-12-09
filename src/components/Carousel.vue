@@ -28,14 +28,16 @@ export default {
   align-items:center;
   margin-top:13px;
   .c-item {
-    width:22px;
-    height:22px;
-    border-radius:50%;
-    background-color:#272c33;
-    margin-left:9px;
-    margin-right:9px;
+    margin: 0 9px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 100%;
     &.curr{
-      background-color:#4092ff;
+        width: 20px;
+        height: 20px;
+        background-color: #00b1fb;
     }
   }
 }
