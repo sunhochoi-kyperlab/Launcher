@@ -1,0 +1,143 @@
+@import '../../common/css/reset.css';
+@import '../../common/css/layout.css';
+
+.contents{display: none}
+.main #main{display: block}
+.noapp #noapp{display: block}
+.running #running{display: block}
+
+.app-list{
+    margin: 65px auto 0;
+    width: 1040px;
+    height: 520px;
+    overflow: hidden;
+}
+.app-list li{
+    padding-top: 15px;
+    float: left;
+    display: block;
+    width: 260px;
+    height: 245px;
+}
+.app-list .icon{
+    position: relative;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+li:active .icon:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(64, 146, 255, 0.5);
+    border-radius: 10px;
+}
+li.dis img, li.dis h3{
+    opacity: .3;
+}
+.badge{
+    z-index: 1;
+    position: absolute;
+    top: -12px;
+    right: -21px;
+    display: inline-block;
+    min-width: 50px;
+    height: 50px;
+    font-family: 'NotoSansCJKkr-Regular';
+    border-radius: 50px;
+    background-color: #ff4c4c;
+    box-shadow: 0 2px 5px #1c1c1c;
+}
+.badge > em{
+    display: block;
+    margin: 0 15px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 47px;
+    font-style: normal;
+    color: #ffffff;
+    text-indent: 0;
+}
+.app-list h3{
+    margin: 22px auto 0;
+    width: 220px;
+    font-size: 33px;
+    color: #ffffff;
+    line-height: 122%;
+    text-align: center;
+}
+.info-text{
+    margin-top: 235px;
+    font-size: 33.5px;
+    color: #acacac;
+    text-align: center;
+    line-height: 150%;
+}
+.indicator{
+    margin: 13px auto 0;
+    width: 100%;
+    height: 22px;
+    text-align: center;
+}
+.indicator > i{
+    margin: 0 7px;
+    text-align: center;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-color: #272c33;
+    border-radius: 100%;
+}
+.indicator > .sel{
+    background-color: #4092ff;
+}
+.list .thumb{
+    position: relative;
+    margin: 15px 0 0 30px;
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.list .thumb:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98px;
+    height: 98px;
+    border: 1px solid #5c5e61;
+}
+.list h3{
+    width: 776px;
+    margin-right: 210px;
+    margin-top: 34px;
+    font-size: 33.5px;
+}
+.btn-area{
+    position: absolute;
+    top: 32px;
+    right: 21px;
+}
+.btn{
+    width: 177px;
+    height: 66px;
+    display: block;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+.btn:active{
+    box-shadow: 0 0 10px #4092ff, 0 0 10px #4092ff, 0 0 10px #4092ff;
+    text-shadow: 0 0 10px #4092ff, 0 0 10px #4092ff, 0 0 10px #4092ff;
+}
+.btn.dis{
+    border-color: #535353;
+    color: #535353;
+}
