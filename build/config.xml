@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="http://www.obigo.com/posco/C300/launcher" version="1.0.7" viewmodes="fullscreen">
+<widget xmlns="http://www.w3.org/ns/widgets" id="http://www.obigo.com/ces2020/OBIGO/C300/launcher" version="1.0.7" viewmodes="fullscreen">
   <name xml:lang="en-us" short="launcher">Launcher</name>
   <description xml:lang="en-us">Home for various applications. You can enjoy and explore the variety of apps in your car!</description>
   <icon src="icon.png"/>
