@@ -269,8 +269,8 @@ export default {
             .badge{
               z-index: 1;
               position: absolute;
-              top: -12px;
-              right: -21px;
+              top: -24px;
+              right: -24px;
               display: inline-block;
               min-width: 50px;
               height: 50px;

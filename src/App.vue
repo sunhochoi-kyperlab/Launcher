@@ -54,7 +54,7 @@ export default {
   flex-direction:row;
   width:1280px;
   height:650px;
-  background: url(./style/common/img/bg.png) no-repeat 0 0;
+  background: #0b0d1f url(./style/common/img/gnb_bg.png) no-repeat 0 0;
   .pop{
     position: fixed;
     top: 0;
