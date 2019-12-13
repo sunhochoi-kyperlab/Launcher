@@ -16,6 +16,7 @@
             <button class="pop-btn">buttons1</button>
             <button class="pop-btn">buttons2</button>
         </div>
+      </div>
     </div>
   </div>
 </template>
